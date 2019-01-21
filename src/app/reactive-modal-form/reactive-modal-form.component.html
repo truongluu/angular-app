@@ -1,0 +1,8 @@
+<div class="form-group">
+  <label for=""></label>
+  <input type="search" [formControl]="searchField" class="form-control" placeholder="Please enter search term">
+</div>
+<hr/>
+<ul>
+  <li *ngFor="let search of searches">{{ search }}</li>
+</ul>
